@@ -1,0 +1,26 @@
+# data files
+data/
+results/
+figures/
+
+# jupyter checkpoints
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+
+# PBS outputs
+*.out
+*.err
+*.pbs
+*.py
+
+# large files
+*.h5ad
+*.mtx
+*.mtx.gz
+*.tar
+*.tar.gz
+*.zip
