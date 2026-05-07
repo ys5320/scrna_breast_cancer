@@ -45,3 +45,9 @@ harmonypy
 gseapy
 pybiomart
 anndata
+
+### Project 3: Bulk RNA-seq Analysis (TCGA-BRCA)
+- **Dataset:** TCGA-BRCA — 94 primary tumour samples (48 Basal, 46 LumA) downloaded via GDC API
+- **Pipeline:** Raw STAR counts → DESeq2 differential expression → GSEA
+- **Comparison:** Basal (TNBC-like) vs LumA (ER+-like)
+- **Key finding:** Consistent pathway enrichment (E2F, G2M, Myc, Interferon, Glycolysis) across bulk RNA-seq, primary tumour scRNA-seq, and cell line scRNA-seq — independently validating PhD omics findings across three datasets and two analytical methods
